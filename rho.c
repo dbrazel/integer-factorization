@@ -6,7 +6,7 @@
 #include <stdbool.h>
 
 /* An implementation of Pollard's Rho algorithm, for integer 
- * factorization. Requires three parameters, all mpz_t objects: 
+ * factorization. Requires four parameters, all mpz_t objects: 
  * n - the integer to be factored; p and q - these will be set to 
  * the factors, if they are found; c - the parameter in the 
  * pseudorandom function. The function will return zero if non-trivial 
